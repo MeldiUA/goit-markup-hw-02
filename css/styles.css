@@ -47,7 +47,7 @@ address {
 }
 
 .adress-item:hover,
-.adress-item:hover:focus {
+.adress-item:focus {
   color: #404bbf;
 }
 
