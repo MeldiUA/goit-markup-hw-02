@@ -18,7 +18,7 @@ address {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17; /* 116.667% */
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
@@ -28,12 +28,13 @@ address {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
-  letter-spacing: 0.54px;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 
 .navigation-item:hover,
-:focus {
+:focus,
+:active {
   color: #404bbf;
 }
 .navigation-item {
@@ -47,7 +48,8 @@ address {
 }
 
 .adress-item:hover,
-:focus {
+:focus,
+:active {
   color: #404bbf;
 }
 
@@ -179,7 +181,7 @@ address {
   text-align: center;
   font-size: 20px;
   font-weight: 500;
-  line-height: 1.11;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
@@ -189,7 +191,7 @@ address {
   text-align: center;
   font-size: 16px;
   font-weight: 400;
-  line-height: 1.11;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
