@@ -33,8 +33,7 @@ address {
 }
 
 .navigation-item:hover,
-:focus,
-:active {
+.navigation-item:focus {
   color: #404bbf;
 }
 .navigation-item {
@@ -48,8 +47,7 @@ address {
 }
 
 .adress-item:hover,
-:focus,
-:active {
+.adress-item:hover:focus {
   color: #404bbf;
 }
 
