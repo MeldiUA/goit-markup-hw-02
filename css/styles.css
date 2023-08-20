@@ -7,6 +7,15 @@ body {
   color: #434455;
 }
 
+ul,
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 address {
   font-style: normal;
 }
@@ -24,26 +33,19 @@ address {
 
 .text-studio-logo {
   color: #2e2f42;
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .navigation-item:hover,
 .navigation-item:focus {
   color: #404bbf;
 }
+
 .navigation-item {
   color: #2e2f42;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 500;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 .adress-item:hover,
@@ -53,12 +55,10 @@ address {
 
 .adress-item {
   color: #434455;
-  font-family: Roboto;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
   line-height: 1.5; /* 150% */
-  letter-spacing: 0.32px;
+  letter-spacing: 0.02em;
 }
 
 /* Main section */
@@ -71,7 +71,6 @@ address {
 .title-main {
   color: #fff;
   text-align: center;
-  font-family: Roboto;
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
@@ -81,9 +80,9 @@ address {
 .btn-order-service {
   cursor: pointer;
   background: #4d5ae5;
-  font-family: Roboto, sans-serif;
+  font-family: inherit;
   font-size: 16px;
-  font-style: normal;
+  font-style: inherit;
   font-weight: 500;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.04em;
@@ -103,7 +102,6 @@ address {
 
 .title-chracteristics {
   color: #2e2f42;
-  font-family: Roboto, sans-serif;
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -111,12 +109,9 @@ address {
 }
 
 .description-characteristic {
-  color: #434455;
-  font-family: Roboto, sans-serif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
@@ -130,7 +125,6 @@ address {
 
 .title-our-team {
   color: #2e2f42;
-  font-family: Roboto, sans-serif;
   text-align: center;
   font-size: 36px;
   font-weight: 700;
@@ -145,27 +139,23 @@ address {
 
 .name-member-team {
   color: #2e2f42;
-  font-family: Roboto, sans-serif;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
 .position-member {
-  color: #434455;
   /* text-align: center; */
-  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
 
 /* Our portfolio section */
 .title-our-portfolio {
   color: #2e2f42;
-  font-family: Roboto, sans-serif;
   font-size: 36px;
   font-weight: 700;
   line-height: 1.11;
@@ -175,7 +165,6 @@ address {
 
 .title-item-portfolio {
   color: #2e2f42;
-  font-family: Roboto, sans-serif;
   text-align: center;
   font-size: 20px;
   font-weight: 500;
@@ -184,8 +173,6 @@ address {
 }
 
 .description-item-portdolio {
-  color: #434455;
-  font-family: Roboto, sans-serif;
   text-align: center;
   font-size: 16px;
   font-weight: 400;
@@ -199,7 +186,6 @@ address {
   color: #4d5ae5;
   font-family: Raleway, sans-serif;
   font-size: 18px;
-  font-style: normal;
   font-weight: 700;
   line-height: 1.17; /* 116.667% */
   letter-spacing: 0.03em;
@@ -208,13 +194,6 @@ address {
 
 .text-studio-logo-footer {
   color: #f4f4fd;
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
 }
 
 .footer-section {
@@ -223,10 +202,8 @@ address {
 
 .description-footer {
   color: #f4f4fd;
-  font-family: Roboto, sans-serif;
   font-size: 16px;
-  font-style: normal;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
 }
